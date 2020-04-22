@@ -7,7 +7,7 @@ import java.util.Arrays;
  */
 
 public class HangmanLetters {
-	private String usedLetters = " ";
+	private String usedLetters = "";
 	
 	public boolean letterIsUsed(char letter) {
 		for (char i = 0; i<usedLetters.length();i++) {
@@ -41,7 +41,7 @@ public class HangmanLetters {
 	
 	public void display() {
 		for (char i =0; i<usedLetters.length(); i++) {
-			System.out.println(usedLetters.charAt(i) + " ");
+			System.out.print(usedLetters.charAt(i) + " ");
 		}
 	}
 	

@@ -23,9 +23,8 @@ public class HangmanStats {
 		this.gamesWon +=1;
 	}
 
-	public String getGamesTotal() {
-		// TODO Auto-generated method stub
-		return null;
+	public int getGamesTotal() {
+		return gamesLost +gamesWon;
 	}
 	
 
